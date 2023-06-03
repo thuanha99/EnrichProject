@@ -1,4 +1,4 @@
-package com.fpt.EnrichWeek1.rest;
+package com.pro.enrich.rest;
 
 
 import org.springframework.web.bind.annotation.*;

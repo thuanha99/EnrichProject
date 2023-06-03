@@ -1,4 +1,4 @@
-package com.fpt.EnrichWeek1;
+package com.pro.enrich;
 
 import org.springframework.stereotype.Component;
 

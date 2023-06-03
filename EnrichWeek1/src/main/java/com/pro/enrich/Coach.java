@@ -1,4 +1,4 @@
-package com.fpt.EnrichWeek1;
+package com.pro.enrich;
 
 public interface Coach {
   String getDailyyWorkout();

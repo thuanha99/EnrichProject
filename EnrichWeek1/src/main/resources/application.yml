@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1999
+    url: jdbc:mysql://localhost:3306/es-java?createDatabaseIfNotExist=true
+
+mybatis:
+  typeAliasesPackage: com.pro.enrich.entity
+  mapper-locations: "classpath:com.pro.enrich.repository/*.xml"
+  configuration:
+    map-underscore-to-camel-case: true
+
