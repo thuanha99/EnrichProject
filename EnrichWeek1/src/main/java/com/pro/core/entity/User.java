@@ -1,4 +1,4 @@
-package com.pro.enrich.entity;
+package com.pro.core.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,10 +15,11 @@ import lombok.ToString;
 @AllArgsConstructor
 public class User {
 
-  private String id;
+  private Long id;
   private String full_name;
   private String email;
   private String phone_number;
   private String address;
-
+  private String create_by;
+  private String update_by;
 }
